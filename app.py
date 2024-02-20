@@ -1,9 +1,6 @@
 from flask import Flask, jsonify
 from delta_rest_client import DeltaRestClient
-from dotenv import loadenv
 import os
-
-loadenv()
 
 # Initialize DeltaRestClient
 delta_client = DeltaRestClient(
