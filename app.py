@@ -5,8 +5,8 @@ import os
 # Initialize DeltaRestClient
 delta_client = DeltaRestClient(
     base_url='https://api.delta.exchange',
-    api_key='Tzc7TA1wh3U4UFWdlqdnVJ1A05WJir',
-    api_secret='IVZ4SEJtDymNz8EodtcAeou1tDMZ6fWyv4hJ9ZxDI3Y6ESZEkBh7LskJn3jT'
+    api_key='umRJZmxH6JzMqzKNLKoV68aVeJh8eT',
+    api_secret='5XJpQyRkFeo2V5eNsaAGtijIKUYCvvMkVWXYye5hZffOzVSu8tF7HMUAUX54'
 )
 
 app = Flask(__name__)
