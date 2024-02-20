@@ -15,7 +15,9 @@ app = Flask(__name__)
 @app.route('/balances', methods=['GET'])
 def get_balances():
     try:
+        print("Processing Request")
         balances = delta_client.get_balances(5)
+        print("Got balances :", balances)
         return jsonify({'available_balance': balances['available_balance']})
     except Exception as e:
         return jsonify({'error': str(e)}), 500
